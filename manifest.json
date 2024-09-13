@@ -4,6 +4,7 @@
     "description": "A Progressive Web App for eCard",
     "start_url": "/hemera/index.html",  // Caminho relativo ao repositório hemera
     "scope": "/hemera/",  // Define o escopo correto para o PWA
+    "id": "/hemera/index.html",  // Adiciona o campo id para identificar o PWA
     "display": "standalone",
     "background_color": "#FF9E1B",
     "theme_color": "#C66E00",

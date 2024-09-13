@@ -2,7 +2,7 @@
     "name": "eCard",
     "short_name": "eCard",
     "description": "A Progressive Web App for eCard",
-    "start_url": "/hemera/index.html",  // Caminho relativo ao repositório hemera
+    "start_url": "/hemera/",  // Caminho relativo ao repositório hemera
     "scope": "/hemera/",  // Define o escopo correto para o PWA
     "display": "standalone",
     "background_color": "#FF9E1B",

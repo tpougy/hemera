@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Manifesto e ícones -->
-  <link rel="manifest" href="/manifest.json">
+  <link rel="manifest" href="/hemera/manifest.json">
   <link rel="apple-touch-icon" sizes="180x180" href="/hemera/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/hemera/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/hemera/favicon-16x16.png">
@@ -126,7 +126,7 @@
 
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      navigator.serviceWorker.register('/hemera/sw.js').then(function(registration) {
         console.log('Service Worker registered with scope:', registration.scope);
       }).catch(function(error) {
         console.log('Service Worker registration failed:', error);

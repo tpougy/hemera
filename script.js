@@ -37,7 +37,7 @@ toggleIcon.addEventListener('click', () => {
         toggleIcon.textContent = 'barcode'; // Troca o ícone para Barcode
         codeImage.src = '/hemera/public/qr.jpg'; // Troca a imagem para o QR Code
         codeImage.alt = 'QR Code';
-        codeImage.style.marginBottom = '30px'; // Define a margem para 30px para a imagem de QR code
+        codeImage.style.marginBottom = '20px'; // Define a margem para 30px para a imagem de QR code
     }
 });
 

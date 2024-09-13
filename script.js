@@ -22,7 +22,7 @@
 //   }
   
 //   // Carregar imagem e salvar no localStorage
-//   const imageFile = '/public/principal.jpg'; // Caminho do arquivo de imagem
+//   const imageFile = '/hemera/public/principal.jpg'; // Caminho do arquivo de imagem
 //   fetch(imageFile)
 //     .then(res => res.blob())
 //     .then(blob => {
@@ -61,14 +61,14 @@ toggleIcon.addEventListener('click', () => {
     // Se o ícone atual for barcode, muda para qr_code e a imagem para o barcode
     if (toggleIcon.textContent === 'barcode') {
         toggleIcon.textContent = 'qr_code'; // Troca o ícone para QR Code
-        codeImage.src = '/public/bar.jpg'; // Troca a imagem para o código de barras
+        codeImage.src = '/hemera/public/bar.jpg'; // Troca a imagem para o código de barras
         codeImage.alt = 'Barcode';
         codeImage.style.marginBottom = '60px'; // Define a margem para 70px para a imagem de barcode
     } 
     // Se o ícone for qr_code, volta para barcode e a imagem para o QR code
     else {
         toggleIcon.textContent = 'barcode'; // Troca o ícone para Barcode
-        codeImage.src = '/public/qr.jpg'; // Troca a imagem para o QR Code
+        codeImage.src = '/hemera/public/qr.jpg'; // Troca a imagem para o QR Code
         codeImage.alt = 'QR Code';
         codeImage.style.marginBottom = '30px'; // Define a margem para 30px para a imagem de QR code
     }

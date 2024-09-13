@@ -1,36 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//     const bgImageDiv = document.getElementById('bgImage');
-    
-//     // Carrega a imagem do localStorage
-//     const base64Image = localStorage.getItem('img_principal');
-    
-//     if (base64Image) {
-//         // Prefixo 'data:image/jpeg;base64,' adicionado antes da string base64
-//         bgImageDiv.style.backgroundImage = `${base64Image})`;
-//     } else {
-//         console.error('Imagem não encontrada no localStorage.');
-//     }
-//   });
-  
-//   // Função para converter imagem em Base64
-// function convertToBase64(file, callback) {
-//     const reader = new FileReader();
-//     reader.onloadend = function () {
-//       callback(reader.result);
-//     };
-//     reader.readAsDataURL(file);
-//   }
-  
-//   // Carregar imagem e salvar no localStorage
-//   const imageFile = '/hemera/public/principal.jpg'; // Caminho do arquivo de imagem
-//   fetch(imageFile)
-//     .then(res => res.blob())
-//     .then(blob => {
-//       convertToBase64(blob, function (base64Image) {
-//         localStorage.setItem('img_principal', base64Image);
-//       });
-//     });
-
 // Função para adicionar 1 dia à data atual
 function addOneDay() {
     const now = new Date();

@@ -54,6 +54,6 @@ moreOptionsButton.addEventListener('click', () => {
 });
 
 // Decodifica o texto Base64 e substitui a letra "X"
-const base64Text = "VW5pdmVyc2lkYWRlIGRlIFPjbyBQYXVsbyAyMDI0IK4="; // Texto base64: "Universidade de São Paulo 2024"
+const base64Text = "VW5pdmVyc2lkYWRlIGRlIFPjbyBQYXVsbyAyMDI0IK4=";
 const decodedText = atob(base64Text); // Decodifica de Base64 para texto
-document.getElementById('replace-text').textContent = decodedText; // Substitui "X ®" pelo texto decodificado
+document.getElementById('replace-text').textContent = decodedText;

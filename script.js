@@ -1,7 +1,7 @@
 // Função para adicionar 1 dia à data atual
 function addOneDay() {
     const now = new Date();
-    now.setDate(now.getDate() + 1); // Adiciona 1 dia
+    now.setDate(now.getDate() +1); // Adiciona 1 dia
     return now;
 }
 
